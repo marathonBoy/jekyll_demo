@@ -1,0 +1,18 @@
+---
+layout: default
+title: 博客搭建好
+---
+　　<h2>{{ page.title }}</h2>
+　　<p>折腾了一天，终于按照阮一峰2012年的一篇文章搭建好了博客<br>
+       主要是两个问题：<br>
+       1、http://username.github.com/jekyll_demo/ 已经改成了<br>
+	   http://username.github.io/jekyll_demo/ <br>
+	   2、文件内容都是直接拷贝的例子，没有自己手动敲下<br>
+	   导致如下四行，开头有空格，title解析不出来<br>
+	   ---<br>
+       layout: default<br>
+       title: 我的Blog<br>
+       ---<br>
+     	   
+   </p>
+　　<p>{{ page.date | date_to_string }}</p>
